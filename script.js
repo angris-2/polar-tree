@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded",
     function(e){
         function age() {
             var round = document.getElementById("round").value;
-            var result = parseInt(round)/6;
+            var result = parseInt(round)/6+5;
             document.getElementById("round").value = result+"세";
         }
 
